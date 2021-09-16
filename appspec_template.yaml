@@ -5,7 +5,7 @@ Resources:
       Properties:
         TaskDefinition: "$TASK_DEFINITION_HELLO"
         LoadBalancerInfo:
-          ContainerName: "$CONTAINER_NAME_HELLO"
+          ContainerName: "$CONTAINER_NAME"
           ContainerPort: "80"
         PlatformVersion: "LATEST"
         NetworkConfiguration:
